@@ -44,7 +44,7 @@ const Contact = () => {
                             rel='noopener noreferrer'
                         >
                             <TwitterIcon className='h-6 w-6 text-primary' />{' '}
-                            @NaderFerjani
+                            @CAS
                         </a>
                         <a
                             href='https://www.linkedin.com/in/nader-ferjani/'
@@ -53,11 +53,11 @@ const Contact = () => {
                             rel='noopener noreferrer'
                         >
                             <LinkedinIcon className='h-6 w-6 text-primary' />{' '}
-                            <span>nader-ferjani</span>
+                            <span>CAS</span>
                         </a>
                         <span className='flex items-center gap-2'>
                             <Discord className='h-6 w-6 fill-primary' />{' '}
-                            <span>stormynight9</span>
+                            <span>CAS</span>
                         </span>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                     <Input
                         required
                         type='email'
-                        placeholder='john.doe@example.com'
+                        placeholder='youremail@example.com'
                         name='contact-email'
                         id='contact-email'
                         className='w-full'

@@ -12,21 +12,21 @@ import FeatureCard from './feature-card'
 
 const featuresData: FeatureCardProps[] = [
     {
-        title: 'Highly customizable',
+        title: 'Truly Innovative',
         description:
-            'Customize the platform to your needs and make it your own.',
+            'Pushing boundaries with pioneering innovations that redefine possibilities',
         icon: <SettingsIcon size={28} className='text-blue-500' />,
         backgroundColor: 'from-blue-500/20 to-blue-500/5',
     },
     {
         title: 'Secure and reliable',
-        description: 'We take security seriously and ensure your data is safe.',
+        description: 'Ensuring utmost security and reliability to safeguard your data',
         icon: <ShieldCheckIcon size={28} className='text-green-500' />,
         backgroundColor: 'from-green-500/20 to-green-500/5',
     },
     {
         title: 'Easy to use',
-        description: 'The platform is easy to use and requires no training.',
+        description: 'User-friendly interface that simplifies your experience',
         icon: <ZapIcon size={28} className=' text-yellow-500' />,
         backgroundColor: 'from-yellow-500/20 to-yellow-500/5',
     },
@@ -40,13 +40,13 @@ const featuresData: FeatureCardProps[] = [
     {
         title: 'Affordable pricing',
         description:
-            'We offer affordable pricing plans for all business sizes.',
+            'Cost-effective plans designed for local and remote businesses',
         icon: <DollarSignIcon className='text-pink-500' />,
         backgroundColor: 'from-pink-500/20 to-pink-500/5',
     },
     {
         title: '24/7 support',
-        description: 'Our support team is available 24/7 to help you out.',
+        description: 'Online, phone, and remote desktop support available 24/7',
         icon: <MessagesSquareIcon size={28} className='text-purple-500' />,
         backgroundColor: 'from-purple-500/20 to-purple-500/5',
     },
@@ -82,13 +82,9 @@ const Features = () => {
                 </div>
                 <p className='text-lg text-muted-foreground'>
                     <span className='hidden lg:block'>
-                        Explore a diverse range of cutting-edge tools
+                        Use a diverse range of cutting-edge tools
                         meticulously crafted to drive your business towards
-                        unparalleled success.
-                    </span>
-                    <span className='block lg:hidden'>
-                        Explore a diverse range of cutting-edge tools crafted
-                        for business success.
+                        unparalleled success
                     </span>
                 </p>
             </div>

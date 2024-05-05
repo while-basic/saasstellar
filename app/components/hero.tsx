@@ -37,9 +37,6 @@ const Hero = () => {
                 <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
                     of{' '}
                 </span>
-                <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
-                    SaaS{' '}
-                </span>
                 <span
                     className={cn(
                         'relative bg-gradient-to-r from-primary bg-clip-text text-5xl font-extrabold text-transparent lg:text-8xl',
@@ -57,7 +54,7 @@ const Hero = () => {
                         theme === 'rose' && 'to-pink-600'
                     )}
                 >
-                    Simplicity.
+                    Custom AI
                 </span>
             </motion.h1>
             <motion.p
@@ -67,11 +64,11 @@ const Hero = () => {
                 transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
                 className='text-base text-muted-foreground lg:text-lg'
             >
-                Welcome to <span className='text-primary'>SaaSStellar</span>,
-                your gateway to streamlined operations, innovation, enhanced
-                productivity, and limitless growth opportunities.{' '}
+                We customize generative AI tools and fine-tune LLMs with your own proprietary data.
+                <span className='text-primary'> C-Cell Custom AI Solutions (CACS)</span>,
+                your gateway to customized AI chatbots trained on your data.{' '}
                 <span className='hidden lg:block'>
-                    Discover a brighter future with us.
+                    Discover an innovative future with us
                 </span>
             </motion.p>
             <motion.form
@@ -87,7 +84,7 @@ const Hero = () => {
                         className='text-left text-muted-foreground'
                         htmlFor='email'
                     >
-                        Want an early invite?
+                        Request an early invite
                     </Label>
                     <Input
                         required
@@ -121,17 +118,17 @@ const Hero = () => {
                         variant={'secondary'}
                         className='pointer-events-none w-full'
                     >
-                        You've successfully joined the waitlist! 🔥
+                        You've successfully joined our waitlist
                     </Button>
                 )}
                 {!state.succeeded && (
                     <p className='w-full text-center text-sm text-muted-foreground'>
-                        Join a waitlist of 200+ members!
+                        Join a community of forward like minded thinkers
                     </p>
                 )}
                 {state.succeeded && (
                     <p className='w-full text-center text-sm text-muted-foreground'>
-                        Welcome to the future of SaaS!
+                        Welcome to the future
                     </p>
                 )}
                 <p className='w-full text-center text-sm text-muted-foreground'></p>

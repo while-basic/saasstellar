@@ -75,11 +75,56 @@ const Pricing = () => {
                         <ul className='mt-8 flex flex-col gap-4'>
                             <li className='flex items-center gap-2'>
                                 <CheckIcon className='h-5 w-5 text-primary' />
-                                <span>Up to 10 team members</span>
+                                <span>Nvidia A10G - small $1.00 hr</span>
                             </li>
                             <li className='flex items-center gap-2'>
                                 <CheckIcon className='h-5 w-5 text-primary' />
-                                <span>50GB of cloud storage</span>
+                                <span>Nvidia A10G - large $1.50 hr</span>
+                            </li>
+                            <li className='flex items-center gap-2'>
+                                <CheckIcon className='h-5 w-5 text-primary' />
+                                <span>Streamlined operations</span>
+                            </li>
+                            <li className='flex items-center gap-2'>
+                                <CheckIcon className='h-5 w-5 text-primary' />
+                                <span>Workflow optimization</span>
+                            </li>
+                            <li className='flex items-center gap-2'>
+                                <CheckIcon className='h-5 w-5 text-primary' />
+                                <span>Basic analytics</span>
+                            </li>
+                            <li className='flex items-center gap-2'>
+                                <CheckIcon className='h-5 w-5 text-primary' />
+                                <span>Email support</span>
+                            </li>
+                        </ul>
+                        <Button className='mt-8 w-full' variant={'outline'}>
+                            Get started
+                        </Button>
+                    </div>
+                    <div className='gradient-border relative w-full max-w-sm flex-grow basis-0 rounded-md bg-gradient-to-bl from-primary/10 via-transparent to-transparent p-8 text-left before:bg-gradient-to-bl before:from-primary/30 before:to-primary/5 lg:max-w-none'>
+                        <div className='flex flex-col gap-3 text-left'>
+                            <p>Basic</p>
+                            <div className='flex items-start gap-2'>
+                                <span className='text-2xl text-muted-foreground'>
+                                    $
+                                </span>
+                                <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-5xl font-medium text-transparent'>
+                                    0
+                                </span>
+                            </div>
+                            <p className=' text-muted-foreground'>
+                                Ideal for startups and small businesses
+                            </p>
+                        </div>
+                        <ul className='mt-8 flex flex-col gap-4'>
+                            <li className='flex items-center gap-2'>
+                                <CheckIcon className='h-5 w-5 text-primary' />
+                                <span>Nvidia A10G - small $1.00 hr</span>
+                            </li>
+                            <li className='flex items-center gap-2'>
+                                <CheckIcon className='h-5 w-5 text-primary' />
+                                <span>Nvidia A10G - large $1.50 hr</span>
                             </li>
                             <li className='flex items-center gap-2'>
                                 <CheckIcon className='h-5 w-5 text-primary' />
@@ -152,7 +197,7 @@ const Pricing = () => {
                     </div>
                     <div className='gradient-border relative max-w-sm flex-grow basis-0 rounded-md bg-gradient-to-br from-primary/10 via-transparent to-transparent p-8 before:bg-gradient-to-br before:from-primary/30 before:to-primary/5 lg:max-w-none'>
                         <div className='flex flex-col gap-3 text-left'>
-                            <p>Premium</p>
+                            <p>On Demand</p>
                             <div className='flex items-start gap-2'>
                                 <span className='text-2xl text-muted-foreground'>
                                     $
@@ -173,7 +218,7 @@ const Pricing = () => {
                         <ul className='mt-8 flex flex-col gap-4'>
                             <li className='flex items-center gap-2'>
                                 <CheckIcon className='h-5 w-5 text-primary' />
-                                <span>Unlimited team members</span>
+                                <span>Unlimited resources</span>
                             </li>
                             <li className='flex items-center gap-2'>
                                 <CheckIcon className='h-5 w-5 text-primary' />
